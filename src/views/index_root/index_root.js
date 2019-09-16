@@ -7,6 +7,7 @@ import {
 import Tabbar from "../../components/tabbar/tabbar"
 import Index from "../index/index"
 import OrderAdmin from "../order_admin/order_admin"
+import "./index_root.scss"
 
 class IndexRoot extends React.Component{
     render(){

@@ -1,0 +1,16 @@
+.tabbar-wrapper {
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    display: flex;
+    .tabbar-item-wrapper {
+        flex: 1;
+        height: 0.8rem;
+        padding: 0.2rem 0 0;
+        color: #454646;
+        text-align: center;
+        .nav-name {}
+
+        .nav-icon {}
+    }
+}

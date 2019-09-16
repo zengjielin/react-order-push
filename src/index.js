@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './config/rem'
+import './assets/css/base.css'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

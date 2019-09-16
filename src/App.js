@@ -7,6 +7,7 @@ import {
 } from "react-router-dom"
 import IndexRoot from "./views/index_root/index_root"
 import UserInfo from "./views/user_info/user_info"
+import "./App.css"
 
 function App() {
   return (
