@@ -10,13 +10,13 @@ class Tabbar extends React.Component {
         return(
             <div className="tabbar-wrapper">
                 <HashRouter>
-                    <NavLink to="/index_root/order_admin" className="tabbar-item-wrapper">
+                    <NavLink to="/index_root/order_admin" className="tabbar-item-wrapper" activeClassName="active-router-name" >
+                        <i className="order-iconfont nav-icon">&#xe64a;</i>
                         <span className="nav-name">订单</span>
-                        <i className="order-iconfont">&#xe64a;</i>
                     </NavLink>
-                    <NavLink to="/index_root/order_admin" className="tabbar-item-wrapper">
+                    <NavLink to="/index_root/index" className="tabbar-item-wrapper" activeClassName="active-router-name" >
+                        <i className="order-iconfont nav-icon">&#xe689;</i>
                         <span className="nav-name">我的</span>
-                        <i className="order-iconfont">&#xe689;</i>
                     </NavLink>
                 </HashRouter>
             </div>

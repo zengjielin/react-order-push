@@ -1,11 +1,14 @@
 import React from "react"
+import './user_info.scss'
 
-class Login extends React.Component{
+class UserInfo extends React.Component{
     render(){
         return (
-            <div>user_info</div>
+            <div className="user-info">
+            userinfo
+            </div>
         )
     }
 }
 
-export default Login
+export default UserInfo
