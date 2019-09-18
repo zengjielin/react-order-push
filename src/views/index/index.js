@@ -10,7 +10,7 @@ import './index.scss'
 class Index extends Component{
     render(){
         return  (
-            <div className="index">
+            <div className="index-page">
                 <div className="header-wrappr">
                     <div className="head-portrait">
                         <img src={require('../../assets/img/head-portrait.jpg')} alt="" />

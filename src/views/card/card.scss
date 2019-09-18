@@ -1,0 +1,102 @@
+.card-admin-page {
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 120px;
+    background: #f3f3f3;
+    box-sizing: border-box;
+    position: relative;
+
+    .card-list-wrapper {
+        .card-item-wrapper {
+            background: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+
+            .card-info-wrapper {
+                width: 680px;
+                height: 370px;
+                background: url("../../assets/img/card.png");
+                background-size: 100% 100%;
+                padding: 60px;
+                box-sizing: border-box;
+                color: #fff;
+
+                .user-name {
+                    font-size: 40px;
+                }
+
+                .card-number {
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 37px;
+                    display: flex;
+                    position: relative;
+                    padding: 70px 0 40px;
+
+                    .card-number-item {
+                        padding-right: 30px;
+                    }
+                }
+
+                .card-detail-wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 20px;
+
+                    .card-text {}
+
+                    .card-status {}
+                }
+            }
+
+            .delete-btn-wrapper {
+                width: 100%;
+                height: 100px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                line-height: 100px;
+                text-align: center;
+
+                .btn-wrapper {
+                    border-top: 1px solid #e7e7e7;
+                    width: 100%;
+                    height: 100px;
+                    color: #ff5656;
+                }
+
+                .btn-wrapper:active {
+                    opacity: 0.6;
+                }
+            }
+        }
+
+        .add-card-btn-wrapper {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 150px;
+            padding: 30px;
+            box-sizing: border-box;
+            background: #f3f3f3;
+            z-index: 3;
+
+            .btn-wrapper {
+                display: inline-block;
+                width: 100%;
+                height: 90px;
+                line-height: 90px;
+                text-align: center;
+                background: #FFF;
+                color: #38ccc6;
+            }
+
+            .btn-wrapper:active {
+                opacity: 0.6;
+            }
+        }
+    }
+}

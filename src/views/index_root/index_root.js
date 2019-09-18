@@ -12,7 +12,7 @@ import "./index_root.scss"
 class IndexRoot extends React.Component{
     render(){
         return(
-            <div className='index-root'>
+            <div className='index-root-page'>
                 <div className='index-root-content'>
                     <HashRouter>
                         <Route  path="/index_root/index" component={Index}/>

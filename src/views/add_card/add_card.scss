@@ -1,0 +1,154 @@
+.add-card-page {
+    width: 100%;
+    height: 100%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    position: relative;
+
+    .add-card-form-wrapper {
+        background: #fff;
+        border-radius: 3px;
+        padding: 50px;
+        box-sizing: border-box;
+
+        .add-card-tip-title-wrapper {
+            font-size: 34px;
+            color: #969696;
+        }
+
+        .add-card-input-wrapper {
+            .input-wrapper {
+                width: 100%;
+                height: 72px;
+                border: 1px solid #eaeaea;
+                border-radius: 4px;
+                background: #fbfbfb;
+                padding: 20px;
+                box-sizing: border-box;
+                margin: 10px 0;
+                font-size: 34px;
+                color: #4e4e4e;
+            }
+
+            .input-wrapper:focus {
+                border: 1px solid #05d4c2;
+            }
+
+            .input-wrapper::-webkit-input-placeholder {
+                /* WebKit, Blink, Edge */
+                color: #bfc0c2;
+                font-size: 34px;
+            }
+
+            .input-wrapper:-moz-placeholder {
+                /* Mozilla Firefox 4 to 18 */
+                color: #bfc0c2;
+                font-size: 34px;
+            }
+
+            .input-wrapper::-moz-placeholder {
+                /* Mozilla Firefox 19+ */
+                color: #bfc0c2;
+                font-size: 34px;
+            }
+
+            .input-wrapper:-ms-input-placeholder {
+                /* Internet Explorer 10-11 */
+                color: #bfc0c2;
+                font-size: 34px;
+            }
+        }
+
+        .query-card-btn-wrapper {
+            padding-top: 50px;
+
+            .btn-wrapper {
+                width: 100%;
+                height: 80px;
+                line-height: 80px;
+                text-align: center;
+                border-radius: 40px;
+                border: none;
+                color: #fff;
+                background: #73dbd7;
+            }
+
+            .btn-wrapper:active {
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.add-card-dialog-wrapper {
+    width: 650px !important;
+    height: 490px !important;
+
+    .card-info-wrapper {
+        padding: 0 50px;
+
+        .card-info-title {
+            line-height: 100px;
+            font-size: 26px;
+            color: #969696;
+            border-bottom: 1px solid #e7e7e7;
+            text-align: left;
+        }
+
+        .card-form-wrapper {
+            letter-spacing: 1px;
+            padding: 10px 0 10px 0;
+
+            .card-form-item-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 16px 0;
+
+                .label {
+                    font-size: 26px;
+                    color: #969696;
+                }
+
+                .content {
+                    font-size: 34px;
+                    color: #4a4a4a;
+                }
+            }
+        }
+
+        .card-btn-wrapper {
+            width: 100%;
+            height: 76px;
+            display: flex;
+            justify-content: center;
+            font-size: 28px;
+
+            .cancel-button {
+                width: 200px;
+                height: 76px;
+                line-height: 76px;
+                border-radius: 38px;
+                text-align: center;
+                background: #f0f1f3;
+                color: #cbcbcc;
+                margin-right: 30px;
+            }
+
+            .confirm-button {
+                background: #38ccc6;
+                color: #ffffff;
+                width: 200px;
+                height: 76px;
+                line-height: 76px;
+                border-radius: 38px;
+                text-align: center;
+            }
+
+            .cancel-button:active,.confirm-button:active{
+                opacity: 0.7;
+            }
+        }
+    }
+}

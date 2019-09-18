@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9f02443.chunk.css",
+    "main.js": "/static/js/main.b2a9f688.chunk.js",
+    "main.js.map": "/static/js/main.b2a9f688.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.bcc10af6.js",
+    "runtime~main.js.map": "/static/js/runtime~main.bcc10af6.js.map",
+    "static/css/2.e7651543.chunk.css": "/static/css/2.e7651543.chunk.css",
+    "static/js/2.cb63cb07.chunk.js": "/static/js/2.cb63cb07.chunk.js",
+    "static/js/2.cb63cb07.chunk.js.map": "/static/js/2.cb63cb07.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cf5d8c87450300b9e6ac832d34bca961.js": "/precache-manifest.cf5d8c87450300b9e6ac832d34bca961.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e7651543.chunk.css.map": "/static/css/2.e7651543.chunk.css.map",
+    "static/css/main.e9f02443.chunk.css.map": "/static/css/main.e9f02443.chunk.css.map",
+    "static/media/base.css": "/static/media/Rajdhani-Medium.c2879e82.ttf",
+    "static/media/head-portrait.jpg": "/static/media/head-portrait.4d05c77e.jpg"
+  }
+}

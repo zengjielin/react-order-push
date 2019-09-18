@@ -1,3 +1,66 @@
-.user-info{
-  
+.user-info-page {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #f3f3f3;
+
+  .user-info-form-wrapper {
+    padding: 20px 50px;
+    background: #FFF;
+    border-radius: 4px;
+
+    .user-info-item-wrapper {
+      padding: 20px 0;
+      .label {
+        font-size: 34px;
+        color: #969696;
+        padding-bottom: 10px;
+      }
+
+      .input-content {
+
+        .input-wrapper {
+          width: 100%;
+          height: 72px;
+          border: 1px solid #eaeaea;
+          border-radius: 4px;
+          background: #fbfbfb;
+          padding: 20px;
+          box-sizing: border-box;
+          margin: 10px 0;
+          font-size: 34px;
+          color: #4e4e4e;
+        }
+
+        .input-wrapper:focus {
+          border: 1px solid #05d4c2;
+        }
+
+        .input-wrapper::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: #bfc0c2;
+          font-size: 32px;
+        }
+
+        .input-wrapper:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: #bfc0c2;
+          font-size: 32px;
+        }
+
+        .input-wrapper::-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: #bfc0c2;
+          font-size: 32px;
+        }
+
+        .input-wrapper:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: #bfc0c2;
+          font-size: 32px;
+        }
+      }
+    }
+  }
 }

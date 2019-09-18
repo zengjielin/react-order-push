@@ -8,10 +8,10 @@ import './order_admin.scss'
 class OrderAdmin extends Component {
     render() {
         return (
-            <div className="order-admin">
+            <div className="order-admin-page">
                 <div className="header-wrapper">
                     <div className="query-date-wrapper">
-                        <img src={require("../../assets/img/icon.png")} alt="" />
+                        <img src={require("../../assets/img/icon_date.png")} alt="" />
                         <span className="date-text">2019-9-17</span>
                         <Icon type="down" color="#8e8e8e" />
                     </div>
