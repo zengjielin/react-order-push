@@ -1,6 +1,5 @@
 import React from "react"
 import './user_info.scss'
-
 class UserInfo extends React.Component{
     render(){
         return (
@@ -35,6 +34,9 @@ class UserInfo extends React.Component{
                         <div className="input-content">
                             <input className="input-wrapper" placeholder="请输入您的邮箱" />
                         </div>
+                    </div>
+                    <div className="user-info-item-wrapper">
+                        <div className="btn-wrapper">保存</div>
                     </div>
                 </div>
             </div>

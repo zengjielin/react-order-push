@@ -62,7 +62,6 @@ class OrderAdmin extends Component {
                                         <HashRouter>
                                             <NavLink to="/order_detail" className="detail-btn">详情</NavLink>
                                         </HashRouter>
-                                        
                                     </div>
                                 </div>
                             )
