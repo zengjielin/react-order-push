@@ -6,7 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import 'antd-mobile/dist/antd-mobile.css';
 import 'lib-flexible'
 import './assets/css/base.css'
-console.log("index")
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

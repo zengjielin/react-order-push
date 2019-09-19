@@ -129,14 +129,17 @@
                 align-items: center;
                 justify-content: flex-end;
                 font-size: 28px;
+
                 .total-num {
                     color: #969696;
                     padding-right: 30px;
                 }
+
                 .total-amount-wrapper {
                     color: #4a4a4a;
                     font-size: 34px;
                     font-weight: 600;
+
                     .unit {
                         font-size: 16px;
                     }
@@ -168,5 +171,7 @@
         .order-item-wrapper+.order-item-wrapper {
             margin-top: 30px;
         }
+
     }
+
 }
